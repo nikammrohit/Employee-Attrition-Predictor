@@ -9,7 +9,7 @@ with open("employeeAttritionModel.pkl", "rb") as file:
 print(type(model))
 
 #title of web app
-st.title("Employee Attrition Prediction")
+st.title("Employee Attrition Predictor")
 
 #instructions for user
 st.write("Enter employee details to predict likelihood of attrition.")
