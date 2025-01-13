@@ -4,7 +4,7 @@ import pandas as pd #to manipulate inputted data
 from sklearn import preprocessing #for label encoding
 
 #1) Load model. 'rb' to read binary values
-with open("03-DecisionTrees/employeeAttritionModel.pkl", "rb") as file:
+with open("03-DecisionTrees/EmployeeAttrition/employeeAttritionModel.pkl", "rb") as file:
   model = joblib.load(file)
 print(type(model))
 
